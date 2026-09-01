@@ -45,6 +45,5 @@ def server_info() -> str:
 
 # start the server
 if __name__ == "__main__":
-    mcp.run(transport="http", host="localhost", port=8000)
-
+    mcp.run(transport="http", host="0.0.0.0", port=8000)
 # to run this you will writ ein you terminal: fastmcp run server.py --transport http --host localhost --port 8000
